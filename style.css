@@ -243,6 +243,8 @@ main .date input[type="date"] {
     color: var(--color-dark);
 }
 
+/*--INSIGHTS--*/
+
 main .insights {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -336,3 +338,7 @@ main .insights .progress .number {
     justify-content: center;
     align-items: center;
 }
+
+
+/*--ORDERS--*/
+
