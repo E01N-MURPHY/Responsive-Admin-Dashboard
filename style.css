@@ -1,7 +1,7 @@
 /*--FONTS--*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/*--ROOT VARIABLES--*/
+/*------ROOT VARIABLES------*/
 :root{
     --color-primary: #7380ec;
     --color-danger: #ff7782;
@@ -154,7 +154,7 @@ aside .logo {
 }
 
 
-/*----SIDEBAR----*/
+/*------SIDEBAR------*/
 
 aside .sidebar {
     display: flex; 
@@ -224,7 +224,7 @@ aside .sidebar .message-count {
     border-radius: var(--border-radius-1);
 }
 
-/*----MAIN SECTION----*/
+/*------MAIN SECTION------*/
 
 mani {
     margin-top: 1.4rem;
@@ -339,11 +339,10 @@ main .insights .progress .number {
     align-items: center;
 }
 
-
 /*--ORDERS--*/
 
 main .recent-orders {
-    margin-top: 0.8rem;
+    margin-top: 2rem;
 }
 
 main .recent-orders h2 {
@@ -378,4 +377,83 @@ main .recent-orders a {
     display: block;
     margin: 1rem auto;
     color: var(--color-primary);
+}
+
+/*------RIGHT SIDE------*/
+
+.right {
+    margin-top: 1.4rem;
+}
+
+/*--TOP--*/
+
+.right .top {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.right .top button {
+    display: none;
+}
+
+.right .theme-toggle {
+    background: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+.right .theme-toggle span {
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .theme-toggle span.active {
+    background: var(--color-primary);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+
+.right .top .profile {
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+}
+
+/*--RECENT UPDATES--*/
+
+.right .recent-updates {
+    margin-top: 1rem;
+}
+
+.right .recent-updates h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .recent-updates .updates {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .recent-updates .updates:hover {
+    box-shadow: none;
+}
+
+.right .recent-updates .updates .update {
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
