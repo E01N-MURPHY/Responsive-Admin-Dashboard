@@ -157,6 +157,10 @@ aside .logo img {
     height: 2rem;
 }
 
+aside .close {
+    display: none;
+}
+
 aside .logo {
     display: flex;
     gap: 0.8rem;
