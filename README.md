@@ -16,5 +16,5 @@
 ### **The toggle for light/dark theme is located on the top right of the page**
 ![](https://github.com/E01N-MURPHY/Responsive-Admin-Dashboard/blob/main/images/README-images/themegif.gif)
 
-## [View the deployed website here!](https://5500-e01nmurphy-responsivewe-39lgm6r70m6.ws-us101.gitpod.io/)
+## [View the deployed website here!](https://e01n-murphy.github.io/Responsive-Admin-Dashboard/)
 
