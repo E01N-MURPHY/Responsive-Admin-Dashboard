@@ -19,7 +19,7 @@ The Center of the page is an overview of Sales, Expenses and Total Income and be
 
 
 The toggle for light/dark theme is located on the top right of the page 
-![alt text](images/README-images/darkmode.jpg)
+![](https://github.com/E01N-MURPHY/Responsive-Admin-Dashboard/blob/main/images/README-images/themegif.gif)
 
 ## [View the deployed website here!](https://5500-e01nmurphy-responsivewe-39lgm6r70m6.ws-us101.gitpod.io/)
 
